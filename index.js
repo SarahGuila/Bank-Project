@@ -36,4 +36,4 @@ app.use('/api/account', require('./routes/account'))
 app.use('/api/action', require('./routes/action'))
 app.use('/api/data', require('./routes/data'))
 
-app.listen(1000, () => console.log("app runing")) 
+app.listen(8080, () => console.log("app runing")) 
